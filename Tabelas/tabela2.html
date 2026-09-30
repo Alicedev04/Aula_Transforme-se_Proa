@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela completa</title>
+
+    <style>
+      body {
+        background-color: black;
+      }
+
+      caption {
+        color: #fff;
+      }
+
+      table {
+        width: 400px;
+        font-size: 20px;
+      }
+
+      td {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      table,
+      td,
+      th {
+        border: 1px solid #ffffff;
+        border-collapse: collapse;
+      }
+
+      tbody {
+        background-color: rgba(181, 0, 247, 0.4);
+        color: #fff;
+      }
+
+      thead {
+        background-color: rgba(155, 0, 167, 0.533);
+      }
+
+      tfoot {
+        background-color: rgba(235, 81, 199, 0.533);
+      }
+
+      .titulo {
+        background-color: #fff;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Titulo da tabela -->
+      <caption>
+        Titulo da tabela
+      </caption>
+
+      <!-- Cabeçalho da tabela -->
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+
+      <!-- Corpo da tabela -->
+      <tbody>
+        <tr class="titulo">
+          <td>Janeiro</td>
+          <td>Consultoria</td>
+          <td>R$ 2.000</td>
+        </tr>
+
+        <tr>
+          <!-- rowspan ocupa mais que uma coluna na tabela -->
+          <td rowspan="2">Fevereiro</td>
+          <td>Desenvolvedor</td>
+          <td>R$ 8.000</td>
+        </tr>
+
+        <tr>
+          <td>Suporte</td>
+          <td>R$ 3.000</td>
+        </tr>
+      </tbody>
+
+      <tr class="titulo">
+        <td>Março</td>
+        <td>Front-End</td>
+        <td>R$ 9.000</td>
+      </tr>
+
+      <!-- Rodapé da tabela -->
+      <tfoot>
+        <tr>
+          <!-- colspan ocupa mais que um espaço na tabela -->
+          <th colspan="2">Total Geral</th>
+          <td>R$ 15.000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Agenda Medica</legend>
+
+        <label for="nome">Nome: </label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+        <br />
+
+        <label for="data">Data da consulta</label>
+        <input type="date" name="date" id="data" required /> <br />
+
+        <label for="especialidade">Especialidade</label>
+        <select name="especialidade" id="especialidade">
+          <option value="">Especialistas</option>
+          <option value="CM">Clinica Medica</option>
+          <option value="Ped">Pediatria</option>
+          <option value="Cardio">Cardiologia</option>
+          <option value="Dermato">Dermatologia</option>
+        </select>
+
+        <br />
+
+        <label for="`plano">Plano de saude</label>
+        <select name="plano" id="plano">
+          <option value="">--Escolha--</option>
+          <option value="Particular">Particular</option>
+          <option value="Unimed">Unimed</option>
+          <option value="Amil">Amil</option>
+          <option value="Bradesco Saúde">Bradesco Saúde</option>
+        </select>
+        <br />
+
+        <label for="Consulta">Primeira consulta na clinica</label>
+        <input type="radio" name="Consulta" id="Consulta" value="Sim" />
+        <label for="Consulta">Sim</label>
+        <input type="radio" name="Consulta" id="Consulta" value="Não" />
+        <label for="Consulta">Não</label>
+        <br />
+
+        <!--  Rampa de acesso, Intérprete de Libras, Espaço para Cão Guia) -->
+        <label for="acess">Necessidade de Acessibilidade no local:</label>
+        <br />
+        <input type="checkbox" name="rampa" id="" /> Rampa de acesso <br />
+        <input type="checkbox" name="interprete" id="" /> Intérprete de Libras
+        <br />
+        <input type="checkbox" name="caoGuia" id="" /> Espaço para Cão Guia
+        <br />
+        <br />
+        <label for="guia">Guia Médica ou Encaminhamento</label> <br />
+        <input type="file" name="guia" id="guia" accept=".pdf, .docx" />
+        <br />
+        <br />
+
+        <input type="submit" value="Confirmar agendamento" />
+      </fieldset>
+    </form>
+  </body>
+</html>

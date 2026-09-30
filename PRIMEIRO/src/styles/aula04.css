@@ -1,0 +1,18 @@
+#caixa1 {
+  /* Tamanho */
+  width: 200px;
+  /* Altura */
+  height: 200px;
+  background-color: blueviolet;
+  margin: 10px 20px;
+  /* margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+}
+
+#caixa2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(242, 94, 190);
+}

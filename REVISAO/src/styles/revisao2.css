@@ -1,0 +1,12 @@
+h1 {
+  background-color: blue;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url("https://img.freepik.com/fotos-premium/ceu-fotorrealista-4k-com-lindas-nuvens-cumulus-cena-de-natureza-serena-e-atmosferica_942795-167.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

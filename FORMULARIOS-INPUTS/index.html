@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form>
+      <!-- Tipo de  texto -->
+      <label for="nome">nome:</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="Digite seu nome"
+        required
+      />
+      <br />
+
+      <!-- Tipo de número -->
+      <label for="numero"> Digite um numero</label>
+      <input
+        type="number"
+        name="numero"
+        id="numero"
+        min="0"
+        max="100"
+        placeholder="Digite um número entre 0 e 100"
+      />
+      <br />
+
+      <!-- Tipo e-mail -->
+
+      <label for="email">Digite seu email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Digite seu email"
+        required
+      />
+      <br />
+      <!-- Tipo senha -->
+      <label for="senha">Digite sua senha</label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        required
+        minlength="4"
+        maxlength="8"
+      />
+      <br />
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>

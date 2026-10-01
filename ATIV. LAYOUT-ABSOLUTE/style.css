@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+}
+
+#camada1 {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  height: 15%;
+  top: 2%;
+  background-color: red;
+  text-align: center;
+}
+
+#camada2 {
+  position: absolute;
+  height: 8%;
+  width: 80%;
+  top: 17%;
+  left: 10%;
+  background-color: lightblue;
+}
+
+#sessao1 {
+  position: absolute;
+  height: 50%;
+  width: 40%;
+  top: 25%;
+  left: 10%;
+  background-color: lightgreen;
+}
+
+#sessao2 {
+  position: absolute;
+  height: 50%;
+  width: 40%;
+  top: 25%;
+  right: 10%;
+  background-color: yellow;
+}

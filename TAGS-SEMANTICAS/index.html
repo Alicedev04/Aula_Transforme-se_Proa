@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevBlog</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="cabecalho">
+      <h1>DevBlog</h1>
+
+      <!-- NavBar -->
+      <nav>
+        <ul id="nav_p">
+          <!-- Link 1 -->
+          <li>
+            <a href="index2.html">Início </a>
+          </li>
+          <!-- Link 2 -->
+          <li>
+            <a href="#">Artigos</a>
+          </li>
+          <!-- Link 3 -->
+          <li>
+            <a href="#">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Tag Main - Agrupa o conteudo principal da pagina -->
+    <main>
+      <!-- Section- Agrupar elemnetos do mesmo tipo -->
+      <section id="sec1">
+        <h2>Ultimas postagens</h2>
+
+        <!-- Article - Conteudo independente -->
+        <article class="art">
+          <!-- Header dentro do article -->
+          <header>
+            <h3>Como criar o primeiro site de forma simples?</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-02"> 02 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>Hoje aprenderemos a como criar um site usando HTML e CSS</p>
+          <a href="#">Saiba mais</a>
+        </article>
+        <!-- Article 2 - Conteudo independente -->
+        <article class="art">
+          <!-- Header dentro do article -->
+          <header>
+            <h3>Aprenda a mágica do CSS</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-02"> 06 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>
+            Hoje aprenderemos a como ultilizar CSS para fazer modificações em
+            nossa página
+          </p>
+          <a href="#">Saiba mais</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- Conteúdo lateral - relação com o tema principal -->
+    <aside>
+      <section id="sec2">
+        <h3>Sobre o Autor do Blog</h3>
+
+        <figure>
+          <img src="Minha foto.jpeg" alt="Foto do autor do blog" />
+          <figcaption>Foto do autor do blog</figcaption>
+        </figure>
+
+        <div id="cont_details">
+          <!-- Datails - perguntas e respostas -->
+          <details open>
+            <summary>Quem é</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut
+              similique cumque, pariatur recusandae vel voluptate dolor odit
+              voluptatibus perspiciatis exercitationem quia. Exercitationem sint
+              consequuntur pariatur enim officia dolorum. Nemo!
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual é sua trajetoria?</summary>
+            <p>
+              lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut
+              similique cumque, pariatur recusandae vel voluptate dolor odit
+              voluptatibus perspiciatis exercitationem quia. Exercitationem sint
+              consequuntur pariatur enim officia dolorum. Nemo!
+            </p>
+          </details>
+        </div>
+      </section>
+    </aside>
+
+    <footer>&copy; 2023 Meu Blog. Todos os direitos reservados.</footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  /* Colunas (horizontal) */
+  grid-template-columns: auto auto;
+  /* Linha (Vertical) */
+  grid-template-rows: auto;
+}
+
+.item {
+  background-color: #048;
+  color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+}

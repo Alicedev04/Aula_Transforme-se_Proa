@@ -1,0 +1,71 @@
+.container {
+  width: 85%;
+  margin: 2px auto;
+  position: relative;
+  display: grid;
+  border: 1px solid #000;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "navegacao navegacao"
+    "principal principal"
+    "esquerdo esquerdo"
+    "direito direito"
+    "rodape rodape";
+}
+
+header {
+  position: relative;
+  grid-area: cabecalho;
+  width: 100%;
+  height: 60px;
+  background-color: red;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  grid-area: navegacao;
+  width: 100%;
+  height: 45px;
+  background-color: aqua;
+}
+
+main {
+  grid-area: principal;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#esquerdo {
+  position: relative;
+  grid-area: esquerdo;
+  width: 30%;
+  height: 400px;
+  background-color: green;
+}
+
+#direito {
+  position: relative;
+  grid-area: direito;
+  width: 70%;
+  height: 400px;
+  background-color: yellow;
+}
+
+footer {
+  grid-area: rodape;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  text-align: center;
+}

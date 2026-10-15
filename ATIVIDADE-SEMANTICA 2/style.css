@@ -97,3 +97,16 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #section1,
+  #section2 {
+    width: 100%;
+  }
+}

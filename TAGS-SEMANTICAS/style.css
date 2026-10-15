@@ -127,3 +127,60 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* Responsividade */
+
+/* Mobile */
+
+/* Até no MÁXIMO determinado tamanho - max-width */
+@media (max-width: 400px) {
+  .art {
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #sec2 {
+    width: 90%;
+  }
+
+  figure {
+    width: 70%;
+  }
+
+  #cont_details {
+    width: 90%;
+  }
+}
+
+/* Tablet */
+
+/* DE um determinado tamanho minimo - min-width - ATÉ um tamanho MÁXIMO - max-width */
+@media (min-width: 401px) and (max-width: 768px) {
+  .art {
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  #sec2 {
+    width: 90%;
+  }
+
+  figure {
+    width: 70%;
+  }
+
+  #cont_details {
+    width: 90%;
+  }
+}
+
+/* Responsividade 1200px */
+
+/* A partir de um tamanho MINIMO - min-width */
+@media (min-width: 1200px) {
+  .art {
+    width: 30%;
+  }
+}
